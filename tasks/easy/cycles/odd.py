@@ -20,6 +20,10 @@ some_list1 = []
 def odd_in_list(some_list: list) -> list:
     odd_list = []
     # TODO Написать свой код здесь
+    for element in some_list:
+        if not type(element) == int or element % 2 != 0:
+            continue
+        odd_list.append(element)
     return odd_list
 
 
