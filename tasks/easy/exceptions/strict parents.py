@@ -72,7 +72,3 @@ if __name__ == '__main__':
         praise(gift)
     finally:
         cook_dinner()
-
-
-
-
